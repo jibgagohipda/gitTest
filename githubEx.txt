@@ -1,0 +1,34 @@
+****로컬(local) -> remote (github Repository)
+echo "# gitTest" >> README.md --선택
+git init --git초기화 **필수
+git add README.md -- git 추가(모든 파일)***필수
+git commit -m "first commit" --commit -> commit을 해야됨
+
+****필수
+git branch -M master	--브런치 확인 기본master
+git remote add origin /*github주소*/  --저장소 주소 ****필수
+git push -u origin master --최종 실행 -> github에 업로드 ***필수
+------------------------------------------------------------------------------
+
+git config --gloval user.name 이름
+git config --gloval user.email 등록이메일
+**git 설정 확인
+git config --gloval user.name
+git config --gloval user.email
+
+***윈도우 자격증명 -> github 자격증명 등록 -> 일반 자격 증명 추가
+ 	-> github에 들어가서 tokens 비번 생성
+git:https://github.com
+tokens git 비번(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
+
+***기본 윈도우 명령어
+cd 폴더명 -> 폴더로 이동
+dir	 -> 현재 디렉토리 ls
+cls	 -> cmd창 새로고침
+
+git설정, github
+\https:/github.com/hrdjava05/gitTest 참조해서 작성
+
+
+강사님 주소
+https://github.com/hrdjava05/
